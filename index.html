@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Google</title>
+        <style>
+            ul {
+                list-style-type: none;
+                margin: 1;
+                padding: 0;
+                overflow: hidden;
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                color: #000;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li img {
+                display: block;
+                margin-top: 2px;
+            }
+            .profile-pic {
+                display: block;
+                margin-top: -9px;
+            }
+            li a:hover {
+                color: #777;
+                text-decoration: underline;
+            }
+            .google-logo {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 13em;
+            }
+            .search-bar {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px;
+            }
+            .search-button {
+                margin-top: 15px;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .search_button_container {
+                display: flex;
+                justify-content: center;
+            }
+            .squares {
+                width: 30px;
+                height: 15px;
+            }
+            .profile-pic {
+                border-radius: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+            <li style="float:right"><a href=""><img class="profile-pic" src="https://lh3.googleusercontent.com/ogw/ADGmqu9vk84FJv6YQz3TjoTCIK7I0045ezOqrJwCqGeL=s32-c-mo"></a></li>
+            <li style="float:right"><a href=""><img class="squares" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.uuGhsMtkcVeEQ0WyiXc24gHaD4%26pid%3DApi&f=1"></a></li>
+            <li style="float:right"><a href="">Images</a></li>
+            <li style="float:right"><a href="">Gmail</a></li>
+        </ul>
+        <div>
+            <div>
+                <img class="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            </div>
+            <div>
+                <form>
+                    <div>
+                        <input class="search-bar" type="search" id="search-bar">
+                    </div>
+                    <div class="search_button_container">
+                        <input class="search-button" type="submit" value="Google Search" id="gs-button">
+                        <input class="search-button" type="submit" value="I'm Feeling Lucky" id="ifl-button">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
